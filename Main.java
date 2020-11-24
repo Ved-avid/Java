@@ -61,7 +61,7 @@ class Main{
         c.printComplex(ans);
 
         Complex sub = c.subtract(c,b);
-        c.printComplex(c);
+        c.printComplex(sub);
 
     }
 }
