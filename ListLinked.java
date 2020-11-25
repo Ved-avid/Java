@@ -10,6 +10,7 @@ class ListLinked{
         addInorder(placeToVisit, "bokaro");
         addInorder(placeToVisit, "ballia");
         addInorder(placeToVisit, "ranchi");
+        addInorder(placeToVisit, "kolkata");
         printList(placeToVisit);
 
     }
