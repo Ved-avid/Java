@@ -58,9 +58,11 @@ class Main{
         Complex c = new Complex(r,i);
         Complex b = new Complex(c);
         Complex ans = c.add(c,b);
+        System.out.println("After addition ");
         c.printComplex(ans);
 
         Complex sub = c.subtract(c,b);
+        System.out.println("After Subtraction");
         c.printComplex(sub);
 
     }
