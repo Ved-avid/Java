@@ -37,8 +37,8 @@ class Complex{
 
     public Complex multiply(Complex c, Complex b){
         Complex base = new Complex();
-        base.real = c.real*b.real;
-        base.imaginary = c.imaginary*b.imaginary;
+        base.real = c.real*b.real-c.imaginary*b.imaginary;
+        base.imaginary = c.imaginary*b.real+c.real*b.imaginary;
         return base;
     }
     public void printComplex(Complex c){
