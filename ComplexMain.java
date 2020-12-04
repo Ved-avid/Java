@@ -1,6 +1,6 @@
 import java.io.IOException;
 import java.io.BufferedReader;
-Import java.io.InputStreamReader;
+import java.io.InputStreamReader;
 
 class Complex{
     float real;
