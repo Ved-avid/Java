@@ -1,3 +1,7 @@
+import java.io.IOException;
+import java.io.BufferedReader;
+Import java.io.InputStreamReader;
+
 class Complex{
     float real;
     float imaginary;
@@ -43,10 +47,6 @@ class Complex{
         System.out.println("--------------------------------------------------------");
     }
 }
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.IOException;
-import java.util.Scanner;
 
 class ComplexMain{
     static public void main(String[] args) throws IOException{
